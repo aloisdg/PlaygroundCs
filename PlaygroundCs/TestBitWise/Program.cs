@@ -25,10 +25,7 @@ namespace TestBitWise
 
         private static int GetSingle(IEnumerable<int> tab)
         {
-            var result = 0;
-            foreach (var i in tab)
-                result ^= i;
-            return result;
+            return tab.Aggregate(0, (current, i) => current ^ i);
         }
 
         private static void Swap(ref int a, ref int b)
