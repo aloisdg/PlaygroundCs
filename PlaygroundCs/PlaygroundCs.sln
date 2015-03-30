@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaygroundCs", "PlaygroundC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDelegate", "TestDelegate\TestDelegate.csproj", "{5542C44B-D340-474B-A51C-20A998019736}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBitWise", "TestBitWise\TestBitWise.csproj", "{845F7190-85EE-440C-93D3-C51269BDE90A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5542C44B-D340-474B-A51C-20A998019736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5542C44B-D340-474B-A51C-20A998019736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5542C44B-D340-474B-A51C-20A998019736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{845F7190-85EE-440C-93D3-C51269BDE90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{845F7190-85EE-440C-93D3-C51269BDE90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{845F7190-85EE-440C-93D3-C51269BDE90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{845F7190-85EE-440C-93D3-C51269BDE90A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
