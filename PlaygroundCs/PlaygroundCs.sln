@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDelegate", "TestDelegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBitWise", "TestBitWise\TestBitWise.csproj", "{845F7190-85EE-440C-93D3-C51269BDE90A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutoMapper", "TestAutoMapper\TestAutoMapper.csproj", "{009D86F4-50C3-4C31-A783-3226F6D951AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{845F7190-85EE-440C-93D3-C51269BDE90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{845F7190-85EE-440C-93D3-C51269BDE90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{845F7190-85EE-440C-93D3-C51269BDE90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{009D86F4-50C3-4C31-A783-3226F6D951AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{009D86F4-50C3-4C31-A783-3226F6D951AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{009D86F4-50C3-4C31-A783-3226F6D951AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{009D86F4-50C3-4C31-A783-3226F6D951AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
