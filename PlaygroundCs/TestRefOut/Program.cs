@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestRefOut
 {
-	class Program
+	internal class Program
 	{
-		static void Main()
+		private static void Main()
 		{
 			var value1 = "cat";
 			SetString1(ref value1);
@@ -17,16 +13,17 @@ namespace TestRefOut
 			string value2;
 			SetString2(1, out value2);
 			Console.WriteLine(value2);
+			Console.ReadLine();
 		}
 
-		static void SetString1(ref string value)
+		private static void SetString1(ref string value)
 		{
 			if (value == "cat")
 				Console.WriteLine("Is cat");
 			value = "dog";
 		}
 
-		static void SetString2(int number, out string value)
+		private static void SetString2(int number, out string value)
 		{
 			value = number == 1 ? "one" : "carrot";
 		}
