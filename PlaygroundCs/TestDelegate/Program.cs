@@ -20,7 +20,7 @@ namespace TestDelegate
         static int Div(int i, int j) { return i / j; }
         static int Mod(int i, int j) { return i % j; }
 
-        static Dictionary<char, Delegate> bistro = new Dictionary<char, Delegate>()
+        static readonly Dictionary<char, Delegate> bistro = new Dictionary<char, Delegate>()
         {
             {'+', new Calcul(Add) },
             {'-', new Calcul(Sub) },
@@ -33,19 +33,15 @@ namespace TestDelegate
         {
             Display(Add, 5, 1);
             Console.WriteLine("{0} {1} {2} = {3}", 2, bistro['+'].Method.Name, 2, bistro['+'].DynamicInvoke(2, 2));
-
-            Console.Write(Environment.NewLine);
-
-            string s = "+-*/*-%+-*";
+            
             Random rand = new Random();
-            foreach (char operand in s)
+            foreach (char operand in "+-*/*-%+-*")
             {
                 Delegate calcul = bistro[operand];
                 int i = rand.Next(1, 10);
                 int j = rand.Next(1, 10);
                 Display((Calcul)calcul, i, j);
             }
-
             Console.ReadLine();
         }
 
