@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAutoMapper", "TestAutoM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRefOut", "TestRefOut\TestRefOut.csproj", "{91BBD906-C2D5-42A8-97CF-06AAA402B20E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHidingMethod", "TestHidingMethod\TestHidingMethod.csproj", "{1387EAD0-490F-4CED-A45B-F4677726591A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{91BBD906-C2D5-42A8-97CF-06AAA402B20E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91BBD906-C2D5-42A8-97CF-06AAA402B20E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91BBD906-C2D5-42A8-97CF-06AAA402B20E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1387EAD0-490F-4CED-A45B-F4677726591A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1387EAD0-490F-4CED-A45B-F4677726591A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1387EAD0-490F-4CED-A45B-F4677726591A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1387EAD0-490F-4CED-A45B-F4677726591A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
